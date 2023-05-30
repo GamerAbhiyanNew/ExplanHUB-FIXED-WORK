@@ -405,7 +405,7 @@ Title = "Message",
 Text = "Successfully Executed"
 })
 end)
-Section:NewButton("FE SoundPanel", "Don't Use Headset", function()
+Section:NewButton("FE SoundPanel [NEW]", "Don't Use Headset", function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/GamerAbhiyanNew/SoundPanel/main/FE"))()
 starterGui:SetCore("SendNotification",{
 Title = "Message",
@@ -414,6 +414,17 @@ Text = "Successfully Executed"
 starterGui:SetCore("SendNotification",{
 Title = "Message",
 Text = "Made By = Scripty#2063"
+})
+end)
+Section:NewButton("FE LiftPlayers [NEW]", "FE guys, don't worry :)", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/GamerAbhiyanNew/LiftPlayers/main/FE"))()
+starterGui:SetCore("SendNotification",{
+Title = "Message",
+Text = "Successfully Executed"
+})
+starterGui:SetCore("SendNotification",{
+Title = "Message",
+Text = "Made By = rouxhaver"
 })
 end)
 local Section = Tab:NewSection("【🎮】Games")
