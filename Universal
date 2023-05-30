@@ -147,7 +147,7 @@ Title = "Message",
 Text = "Successfully Executed"
 })
 end)
-Section:NewToggle("JumpPower Auto 100", ":)", function(state)
+Section:NewToggle("JumpPower Auto 0", ":)", function(state)
     if state then
         game.Players.LocalPlayer.Character.Humanoid.JumpPower = 0
 starterGui:SetCore("SendNotification",{
@@ -403,6 +403,17 @@ Section:NewButton("FE Anti Fling", "Bug Camera?, Here's the Way", function()
 starterGui:SetCore("SendNotification",{
 Title = "Message",
 Text = "Successfully Executed"
+})
+end)
+Section:NewButton("FE SoundPanel", "Don't Use Headset", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/GamerAbhiyanNew/SoundPanel/main/FE"))()
+starterGui:SetCore("SendNotification",{
+Title = "Message",
+Text = "Successfully Executed"
+})
+starterGui:SetCore("SendNotification",{
+Title = "Message",
+Text = "Made By = Scripty#2063"
 })
 end)
 local Section = Tab:NewSection("【🎮】Games")
