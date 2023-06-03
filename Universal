@@ -57,7 +57,7 @@ starterGui:SetCore("SendNotification",{
 Title = "Message GamerAbhiyan",
 Text = "Thanks You For Executing My Script"
 })
-local Window = Library.CreateLib("Universal Explan HUB | Fixed 【V3.5】", getgenv().Theme)
+local Window = Library.CreateLib("Universal Explan HUB | Fixed 【V3.7】", getgenv().Theme)
 local Tab = Window:NewTab("Recommended")
 local Section = Tab:NewSection("If You Die You Will Lose The Toggle")
 local Section = Tab:NewSection("And You Executed Again And Too")
@@ -506,6 +506,13 @@ Title = "Message",
 Text = "Successfully Executed"
 })
 end)
+Section:NewButton("Rainbow Friends | Chapter 2", "IDK ", function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/ToraIsMe/ToraIsMe/main/0rainbow'))()
+starterGui:SetCore("SendNotification",{
+Title = "Message",
+Text = "Successfully Executed"
+})
+end)
 Section:NewButton("Rainbow Friends | BorkWare", "IDK WHAT SCRIPT ", function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/Ihaveash0rtnamefordiscord/BorkWare/main/Scripts/' .. game.GameId .. ".lua"))(' Watermelon ? ')
 starterGui:SetCore("SendNotification",{
@@ -800,7 +807,7 @@ Title = "Message",
 Text = "Successfully Executed"
 })
 end)
-Section:NewButton("Universal Explan HUB | 【V3.5】", "", function()
+Section:NewButton("Universal Explan HUB | 【V3.7】", "", function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/GamerAbhiyanNew/ExplanHUB-FIXED-WORK/main/Universal"))()
 starterGui:SetCore("SendNotification",{
 Title = "Message",
